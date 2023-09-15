@@ -1,0 +1,10 @@
+for xx in range(int(input())):
+	a,b=map(int,input().split())
+	
+	k=0
+	
+	while (1):
+		if (a^k)>b:
+			print(k)
+			break
+		k=k+1
